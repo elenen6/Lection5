@@ -1,0 +1,83 @@
+body{
+    height: 2000px;
+}
+header{
+    background-color: lightblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+.logo{
+    font-size: 50px;
+    color: red;
+    display: inline-block;
+    margin-right: 70px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+nav{
+    display: inline-block;
+    vertical-align: middle;
+}
+li{
+    color: black;
+    display: inline-block;
+    margin-right: 20px;
+}
+li a {
+    color: black;
+    font-size: 22px;
+}
+/* Section 1 */
+.container{
+    width: 1170px;
+    margin: 0 auto; 
+}
+.mshobeli{
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 50px;
+    border-radius: 20px;
+
+}
+.shvili{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+.black{
+    background-color: black;
+    top: 0;
+    left: 0;
+}
+.red{
+    background-color: red;
+    top: 50px;
+    left: 50px;
+    z-index: 3;
+    border-radius: 50%;
+}
+.green{
+    background-color: green;
+    top: 100px;
+    left: 100px;
+}
+.pink-floyd{
+    display: inline-block;
+    position: relative;
+}
+.mydiv{
+    width: 100px;
+    height: 100px;
+    background-color: wheat;
+    position: absolute;
+    font-size: 30px;
+    color: orange;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
